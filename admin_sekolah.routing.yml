@@ -1,0 +1,7 @@
+admin_sekolah.siswa_belum_verifikasi.canonical:
+  path: '/pilihan_sekolah/{pilihan_sekolah}/siswa-belum-verifikasi'
+  defaults:
+    _controller: '\Drupal\admin_sekolah\Controller\SiswaBelumVerifikasiController::belumVerifikasi'
+    _title: 'Siswa yang Belum Diverifikasi'
+  requirements:
+    _permission: 'access content'

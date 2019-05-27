@@ -1,0 +1,6 @@
+# admin_sekolah routing definition
+admin_sekolah.siswa_belum_verifikasi.canonical:
+  route_name: admin_sekolah.siswa_belum_verifikasi.canonical
+  base_route: entity.pilihan_sekolah.canonical
+  title: 'Belum verifikasi'
+  weight: 10

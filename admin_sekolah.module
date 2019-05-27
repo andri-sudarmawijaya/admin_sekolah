@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains admin_sekolah.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function admin_sekolah_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the admin_sekolah module.
+    case 'help.page.admin_sekolah':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Admin sekolah module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,7 @@
+name: 'Admin Sekolah'
+type: module
+description: 'Admin sekolah module'
+core: 8.x
+package: 'PPDB'
+dependencies:
+  - pendaftaran

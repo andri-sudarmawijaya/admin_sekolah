@@ -1,0 +1,14 @@
+{
+  "name": "drupal/admin_sekolah",
+  "type": "drupal-module",
+  "description": "Admin sekolah module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/admin_sekolah",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/admin_sekolah",
+    "source": "http://cgit.drupalcode.org/admin_sekolah"
+  },
+  "require": { }
+}
